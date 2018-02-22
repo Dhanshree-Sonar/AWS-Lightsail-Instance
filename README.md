@@ -176,7 +176,6 @@ http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/
       http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/
       http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/login
       http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/gconnect
-
       ```
     
     15. Download new `client_secrets.json` and replace with old file
