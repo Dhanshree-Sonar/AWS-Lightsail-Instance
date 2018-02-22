@@ -183,4 +183,6 @@ http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/
       - `$ sudo nano /var/www/FlaskApp/FurnitureCatalog/client_secrets.json`
       - Remove old content and paste new `client_secrets.json` content
       
-
+## References
+	- https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu
+	- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
