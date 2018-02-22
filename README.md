@@ -4,3 +4,6 @@ Created a brand-new, barebone, AWS Linux instance and turned it into the secure 
 ## IP Address and SSH Port
 - AWS Lightsail Server IP Address : 18.220.175.105
 - SSH Port : 2200
+
+## Web Application URL
+http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/
