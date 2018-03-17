@@ -1,12 +1,13 @@
 # AWS-Lightsail-Instance
 Created a brand-new, barebone, AWS Linux instance and turned it into the secure and efficient web server, which is hosting a Flask application. 
+(The instance has been deleted as it was rented for a month, therefore you won't be able to access the application. You could rent an instance  on AWS Lightsail and perform the below steps to have a secure and efficient web server.)
 
 ## IP Address and SSH Port
-- AWS Lightsail Server IP Address : 18.220.175.105
+- AWS Lightsail Server IP Address : 18.220.175.105 (Currntly not working as the instance has been deleted.)
 - SSH Port : 2200
 
 ## Web Application URL
-http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/
+http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/  (Currntly not working as the instance has been deleted.)
 
 ## Packages Installed
   - **Apache**</br>
