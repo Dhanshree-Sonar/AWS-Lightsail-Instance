@@ -7,13 +7,13 @@ Created a brand-new, barebone, AWS Linux instance and turned it into the secure 
 - SSH Port : 2200
 
 ## Web Application URL
-http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/  (Currntly not working as the instance has been deleted.)
+http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/  (Currently not working as the instance has been deleted.)
 
 ## Packages Installed
   - **Apache**</br>
     Apache is a free open source software which runs over 50% of the world’s web servers.</br>
     `$ sudo apt-get install apache2`</br>
-    Make .git folder inaccessible via web browser:
+    Make .git folder inaccessible via a web browser:
       - `$ sudo nano /etc/apache2/apache2.conf`
       - Add line: `RedirectMatch 404 /.git`
       - `$ sudo service apache2 restart`
@@ -69,7 +69,7 @@ http://ec2-18-220-175-105.us-east-2.compute.amazonaws.com/  (Currntly not workin
 2. Create an SSH key pair for grader using the `ssh-keygen` tool
   - Generate SSH key pair on your local system using command `$ ssh-keygen`
   - Give file name '/Users/<user-name>/.ssh/lightsail' and enter passpharase
-  - Connect to lightsail instance using 'Connect using SSH' button
+  - Connect to the lightsail instance using 'Connect using SSH' button
   - `$ su grader` to login as grader and enter password
   - `$ mkdir .ssh` to create direcory `.ssh`
   - `$ touch .ssh/authorized_keys`
